@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="indumentaria motocross, ropa motocross, ropa enduro">
+    <title>RacingTeam - Indumentaria Motocross</title>
+    <meta name="description" content="Sitio oficial RacingTeam indumentaria motocross en Argentina">
+    <meta name="copyright" content="RacingTeam">
+    <meta property="og: title" content="RacingTeam">
+    <meta property="og: description" content="Indumentaria motocross">
+    <meta property="og: locate" content="es_ES">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <p><a href="./index.html">RacingTeam</a></p>
+        <div class="searchBar">
+            <input id="buscar" placeholder="Buscar...">
+        </div>
+        <div class="divCarritoYboton">
+            <button type="button" class="carritoBtn" id="verCarrito"><span id="contadorCarrito">0</span></button>
+            <button type="button" id="botonIniciarSesion" class="btnInicioSesion">Iniciar Sesión</button>
+        </div>
+    </header>
+    <main>
+        <h1 class="titulosP">Productos</h1>
+    <section class="renderProductos" id="contenedorProductos">
+    </section>
+    <div id="modal-form" class="formularioModal">
+        <div class="modal-content-form">
+            <form id="formulario" class="formSesion">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" required>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" required>
+                <button type="submit">Iniciar sesión</button>
+            </form>
+        </div>
+    </div>
+    <div id="ventanaModalCarrito" class="modalCarrito">
+    <div class="modal-content-carrito" id="mostrarCarrito">
+        <span class="cerrarModalCarrito">&times;</span>
+        <h2 class="tituloCarrito">Carrito de Compras</h2>
+        <table id="contenedorCarrito" class="tablaCarrito">
+        </table>
+        <div class="infoCarrito">
+            <p>Total de la compra: $<span id="totalCompra"></span></p>
+            <button id="btnVaciarCarrito" class="btnCard">Vaciar Carrito</button>
+            <button id="btnFinalizarCompra" class="btnEliminarProd">Finalizar Compra</button>
+        </div>
+    </div>
+    </div>
+    </main>
+    <footer class="footer">
+        <section class="index-logos">
+            <div>
+                <img src="./assets/img/Tarjetalogo.png" alt="compra con  tarjeta">
+                <div>
+                <p>Pagá como quieras</p>
+                <p>Todos los medios de pago</p>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/img/EnvioGratis.png" alt="envio gratis">
+                <div>
+                <p>Envío gratis</p>
+                <p>A todo el país</p>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/img/SeguridadLogo.png" alt="compra seguro">
+                <div>
+                <p>Comprá con seguridad</p>
+                <p>Tus datos siempre protegidos</p>
+                </div>
+            </div>
+        </section>
+    <div class="contacto">
+        <p class="contactoP">Seguí conectado</p>
+        <div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./assets/img/fb.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/img/ig.png" alt="instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="./assets/img/tw.png" alt="twitter"></a>
+        </div>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="productos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

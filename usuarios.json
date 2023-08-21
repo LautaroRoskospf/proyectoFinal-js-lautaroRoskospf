@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "Lautaro",
+        "apellido": "Roskospf",
+        "edad": 28,
+        "genero": "masculino",
+        "fecha_registro": "2023-08-19",
+        "usuario": "usuario1",
+        "contraseña": "admin"
+    },
+    {
+        "nombre": "Celina",
+        "apellido": "Roskospf",
+        "edad": 35,
+        "genero": "femenino",
+        "fecha_registro": "2023-08-18",
+        "usuario": "usuario2",
+        "contraseña": "admin"
+    },
+    {
+        "nombre": "Franco",
+        "apellido": "Roskospf",
+        "edad": 22,
+        "genero": "masculino",
+        "fecha_registro": "2023-08-17",
+        "usuario": "usuario3",
+        "contraseña": "admin"
+    },
+    {
+        "nombre": "Laura",
+        "apellido": "Roskospf",
+        "edad": 30,
+        "genero": "femenino",
+        "fecha_registro": "2023-08-16",
+        "usuario": "usuario4",
+        "contraseña": "admin"
+    }
+]
